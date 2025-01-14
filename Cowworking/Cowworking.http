@@ -1,0 +1,6 @@
+@Cowworking_HostAddress = http://localhost:5250
+
+GET {{Cowworking_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
