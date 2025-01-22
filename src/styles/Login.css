@@ -1,0 +1,74 @@
+.login{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+    background-color: #f3f1f0;
+}
+
+.login h2{
+    font-size: 1.64rem;
+    line-height: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    height: 100%;
+    width: 18%;
+}
+
+.login form label{
+    font-size: 1rem;
+}
+
+.login form input{
+    appearance: none;
+    background: rgb(255, 255, 255);
+    border: 0.0625rem solid rgb(39, 38, 42);
+    border-radius: 1rem;
+    box-sizing: border-box;
+    color: rgb(39, 38, 42);
+    font-size: 1rem;
+    line-height: 18px;
+    padding: 0.75rem;
+    width: initial;
+}
+
+.buttonPassword{
+    width: 30px;
+    padding: 4px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.login a{
+    color: blue;
+}
+.login a:hover{
+    color: rgb(4, 4, 173);
+}
+
+.send{
+    appearance: none;
+    background: #2b2b2c;
+    border: 0.0625rem solid rgb(39, 38, 42);
+    border-radius: 1rem;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 18px;
+    padding: 0.75rem;
+    width: initial;
+    cursor: pointer;
+}
+
+.send:hover{
+    background: #3b3b3b;
+}
