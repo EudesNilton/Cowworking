@@ -1,4 +1,5 @@
 import "../../styles/Login.css"
+import { IoMdEye, IoMdEyeOff } from "react-icons/io";
 import React, { useState } from "react";
 
 function Login() {
@@ -36,7 +37,7 @@ function Login() {
           type="button"
           onClick={togglePasswordVisibility}
         >
-          {showPassword ? "🙈" : "👁️"}
+          {showPassword ? <IoMdEyeOff /> : <IoMdEye />}
         </button>
         
 
@@ -47,7 +48,7 @@ function Login() {
 
     <p>Não tem uma conta?</p>
 
-    <button>Criar conta</button>
+    <button className="create">Criar conta</button>
     </div>
   );
 }

@@ -1,0 +1,16 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12%;
+}
+
+footer .image{
+    font-size: 50px;
+}
+
+
+footer div ul{
+    display: flex;
+    gap: 30px;
+}

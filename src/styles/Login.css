@@ -5,7 +5,6 @@
     align-items: center;
     padding: 30px;
     width: 100%;
-    background-color: #f3f1f0;
 }
 
 .login h2{
@@ -41,11 +40,10 @@
 }
 
 .buttonPassword{
-    width: 30px;
-    padding: 4px;
-    border-radius: 50%;
+    width: 40px;
     border: none;
-    cursor: pointer;
+    font-size: 22px;
+    background: rgb(255, 255, 255);
 }
 
 .login a{
@@ -71,4 +69,22 @@
 
 .send:hover{
     background: #3b3b3b;
+}
+
+.login p{
+    margin: 50px;
+}
+
+.create{
+    appearance: none;
+    background: #2b2b2c;
+    border: 0.0625rem solid rgb(39, 38, 42);
+    border-radius: 1rem;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 18px;
+    padding: 0.75rem;
+    width: 18%;
+    cursor: pointer;
 }

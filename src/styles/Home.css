@@ -1,0 +1,18 @@
+.home .vaca{
+    width: 350px;
+    border-radius: 72% 28% 77% 23% / 29% 58% 42% 71%;
+}
+
+.apresentacao{
+    display: flex;
+}
+
+.home .vagas{
+    display: flex;
+    flex-direction: column;
+}
+
+.vagas ul{
+    display: flex;
+    flex-direction: row;
+}
